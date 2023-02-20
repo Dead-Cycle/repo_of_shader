@@ -5,6 +5,9 @@
 class ofApp : public ofBaseApp{
 private:
     ofMesh triangle;
+    ofShader shader;
+    
+    glm::vec4 flagCol = glm::vec4(0, 1, 1, 1);
     
 public:
     void setup();
